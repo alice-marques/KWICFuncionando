@@ -1,6 +1,6 @@
 Simulink implementation of sensitivity analysis of radial distribution network
 Method for voltage drop compensation in a multi-terminal dc network
-Enhanced PSO for network reconfigurationhhhhhhhhhh under different fault locations in smart grids
+Enhanced PSO for network reconfiguration under different fault locations in smart grids
 Perceptual Adversarial Networks for Image-to-Image Transformation
 The Wizard of Oz
 Citizen Kane
