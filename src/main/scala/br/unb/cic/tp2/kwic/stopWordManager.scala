@@ -5,7 +5,7 @@ object stopWordManager {
   var words : List[String] = List()
 
   def readStopWord(): Unit ={
-    println("Press 1 to use the default file or 2 to use a new one:")
+    println("Press 1 to use the default stopword file or 2 to use a new one:")
     scala.io.StdIn.readInt() match{
       case 1 => words = scala.io.Source.fromFile("stopWords.txt").getLines().toList
       case 2 => words = scala.io.Source.fromFile(scala.io.StdIn.readLine()).getLines().toList
@@ -16,6 +16,4 @@ object stopWordManager {
   /**
     * return true in the case of a stop word.
     */
-  def stopWord(word : String) = words.contains(word)
-
-}
+  def stopWord(word : String) = words.contains(word) }

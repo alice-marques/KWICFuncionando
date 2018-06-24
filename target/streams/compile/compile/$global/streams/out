@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/andre/UnB/TP2/KWICTraits/src/main/scala/br/unb/cic/tp2/kwic/DBLPManager.scala:4:7: class DBLPManager needs to be abstract, since method ReturnsList in trait DBLP of type ()List[String] is not defined[0m
+[0m[[0m[31merror[0m] [0m[0mclass DBLPManager extends DBLP {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

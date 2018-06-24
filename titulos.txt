@@ -1,12 +1,8 @@
-Simulink implementation of sensitivity analysis of radial distribution network
-Method for voltage drop compensation in a multi-terminal dc network
-Enhanced PSO for network reconfiguration under different fault locations in smart grids
-Perceptual Adversarial Networks for Image-to-Image Transformation
 The Wizard of Oz
 Citizen Kane
-The Third Man1
+The Third Man,.,.,.,.
 Get Out
 Mad Max: Fury Road
 All About Eve
 Inside Out
-The Godfather
+The Godfather a a a a a a A
