@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kwictraits.iml" filepath="$PROJECT_DIR$/.idea/modules/kwictraits.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kwictraits-build.iml" filepath="$PROJECT_DIR$/.idea/modules/kwictraits-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kwic.iml" filepath="$PROJECT_DIR$/.idea/modules/kwic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kwic-build.iml" filepath="$PROJECT_DIR$/.idea/modules/kwic-build.iml" />
     </modules>
   </component>
 </project>

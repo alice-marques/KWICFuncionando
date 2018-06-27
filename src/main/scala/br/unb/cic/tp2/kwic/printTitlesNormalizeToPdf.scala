@@ -9,7 +9,7 @@ class printTitlesNormalizeToPdf {
     val normalize = 20
     val writer = new PrintWriter("Saida.tex")
     val Documento = List("""\documentclass{article}""","""\title{KWIC}""","""\begin{document}""","""\end{document}""")
-    val cleanDir = List("Saida.tex","Saida.aux","Saida.pdf","Saida.log")
+    val cleanDir = List("Saida.tex","Saida.aux","Saida.log")
     writer.write(Documento(0)+'\n'+Documento(1)+'\n'+Documento(2)+'\n')
     var aux:String = ""
     for(title <- titlesManager.cleanedTitles){
@@ -28,6 +28,7 @@ class printTitlesNormalizeToPdf {
     }
     writer.append("""\\"""+'\n'+Documento(3))
     writer.close()
+    "rm Saida.pdf".!
     "pdflatex Saida.tex".!
     for(file <- cleanDir) ("rm "+file).!
 

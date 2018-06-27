@@ -3,6 +3,7 @@ package br.unb.cic.tp2.kwic
 import play.api.libs.json._
 import scala.collection.mutable.ListBuffer
 
+
 class DBLPManager extends DBLP {
   def returnTitles(): ListBuffer[String] = {
     print("Please enter your search criteria: ")
